@@ -2,7 +2,6 @@ import React from 'react'
 import style from './index.module.css'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../../Components/Modules/Navbar';
-import Footer from '../../Components/Modules/Footer';
 
 const Home = () => {
 
@@ -19,7 +18,6 @@ const Home = () => {
               <button onClick={()=>navigate('/daftar-paket')} id='Medium' className={style.butt}>Lihat lebih lengkap</button>
             </div>
           </div>
-          <Footer />
         </div>
     </div>
   )

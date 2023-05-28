@@ -101,7 +101,6 @@ const Package = () => {
                     null }
                 </div>
             </div>
-            <Footer />
         </div>
     </div>
   )
