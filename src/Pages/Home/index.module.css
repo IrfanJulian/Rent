@@ -10,7 +10,7 @@
 }
 
 .wrapper{
-    height: 100vh;
+    height: 80vh;
     display: grid;
 }
 
@@ -19,17 +19,19 @@
     text-align: left;
     font-size: 30px;
     color: white;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 50px;
     text-shadow: 2px 2px 4px black;
     /* border: 2px solid yellow; */
+}
+
+.wrapperbtn{
+    display: grid;
 }
 
 .butt{
     margin-top: 30px;
     padding: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    width: 35%;
     border: 2px solid white;
     border-radius: 10px;
     font-size: 25px;
@@ -61,12 +63,16 @@
         text-align: center;
     }
     .wrapper{
-        padding-top: 15px;
+        margin-top: -30px;
+        padding-top: 0px;
+        height: 100vh;
     }
     .butt{
         margin-top: 25px;
         padding: 5px;
         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         border: 2px solid white;
         border-radius: 10px;
         font-size: 15px;

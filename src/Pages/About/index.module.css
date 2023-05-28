@@ -1,5 +1,5 @@
 .wrapper{
-    padding-top: 50px;
+    padding-top: 0;
     padding-bottom: 40px;
 }
 
@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 600px) {
     .wrapper{
-        padding-top: 55px;
+        padding-top: 0px;
     }
     
     .wrapperabout{

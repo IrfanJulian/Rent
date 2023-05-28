@@ -11,14 +11,13 @@ import car7 from '../../Assets/Images/tesla S series 2021.png'
 import car8 from '../../Assets/Images/tesla S series 2022.png'
 import Biaya from '../../Components/Bases/Cost'
 import Navbar from '../../Components/Modules/Navbar'
-import Footer from '../../Components/Modules/Footer'
 
 const Package = () => {
 
     const [cost, setCost] = useState(false);
     const [rentPrice, setRentPrice] = useState(0);
     const [amount, setAmount] = useState(0);
-    const [driver, setDriver] = useState(0);
+    const [driver, setDriver] = useState(false);
 
 
 
@@ -91,7 +90,7 @@ const Package = () => {
         null}
         <div className="kontainer">
             <div className={style.wrapper}>
-                <p className={style.tittle} id='Light'>Rental Mobil <span className={style.irfan} id='Medium'> Julian Ibrahim Rent's</span></p>
+                <p className={style.tittle} id='Light'>Selamat Datang di Rental Mobil <span className={style.irfan} id='Medium'> Fan's Garage</span></p>
                 <p className={style.headline}>Berikut list kendaraan yang tersedia di kami:</p>
                 <div className={style.wrappercard}>
                     {data ? data.map((car)=>

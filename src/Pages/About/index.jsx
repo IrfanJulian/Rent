@@ -10,17 +10,31 @@ const About = () => {
         <Navbar />
         <div className="kontainer">
             <div className={style.wrapper}>
-                <p id='SemiBold' className={style.tittle}>Tentang Irfan Rent Cars</p>
+                <p id='SemiBold' className={style.tittle}>Tentang Fan's Garage</p>
                 <div className={style.wrapperabout}>
-                    <p id='Light' className={style.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi obcaecati, tenetur culpa ratione, atque porro dolor eos praesentium possimus modi cumque! Enim alias eveniet, hic saepe dignissimos, fugit similique quod voluptates omnis dolores maxime veniam, quaerat sed labore deleniti. Sint ex praesentium minima velit, officia quos labore molestiae. Rerum in qui assumenda ipsum nam, molestias laborum, aliquid adipisci dolores magnam non doloribus aut distinctio odit rem dicta! Enim quis impedit odio neque aliquam perferendis, recusandae provident corporis fuga assumenda iusto? Adipisci neque iste fugiat molestiae quos architecto sequi fuga, nemo, quis ullam dolorem quod officiis. Similique voluptates vero voluptatum dolorum pariatur neque quibusdam porro ab, aliquid deserunt omnis laboriosam, aspernatur corrupti? Vero quibusdam, excepturi a nihil quaerat dolorem laboriosam molestiae adipisci et sequi sunt eum fugit ut, laborum necessitatibus recusandae quia praesentium placeat pariatur? Quibusdam dolores nam obcaecati nemo maxime enim, eligendi aliquid illo laborum magni quaerat ratione rem suscipit autem quam quis ad illum eum cum velit vitae explicabo totam accusantium atque. Alias quos odit possimus at minus quae exercitationem nisi autem, perspiciatis obcaecati temporibus! Officiis exercitationem corporis consequatur! Neque sequi, ipsam fugiat pariatur inventore a libero dolorem nesciunt maiores excepturi soluta, facere id, illo consequatur? Explicabo, nisi?</p>
+                    <p id='Light' className={style.text}>Rental mobil Bandung merupakan bagian dari berbagai bidang usaha transportasi dari Fan's Garage . Lokasi berada di kawasan yang mudah dijangkau yaitu di Bekamin, DJl. Sekepanjang 1 Cikutra Cibeunying Kidul Kota Bandung 40124, Jawa Barat. Saat ini perusahaan kami telah memiliki 10 kantor cabang rental atau sewa mobil di 10 kota besar di Indonesia.
+
+                    Kami menyediakan berbagai pilihan mobil dengan berbagai kapasitas penumpang. Armada mobil yang kami gunakan adalah mobil keluaran terbaru. Saat ini kami telah memiliki lebih dari 200 unit armada. Dengan berbagai jenis mobil yang kami miliki, kami memastikan jika anda akan mendapatkan mobil yang sesuai dengan kebutuhan perjalanan anda.
+
+                    Bagi anda warga masyarakat kota Bandung dan sekitarnya atau siapapun anda yang sedang membutuhkan armada mobil dengan segera di wilayah Bandung, kamilah penyedia jasa sewa mobil Bandung terdekat. Untuk pemesanan mobil kami, anda bisa melakukannya secara online maupun offline. Semua bisa dilakukan dengan mudah. Anda bisa memesan armada mobil kami melalui website kami atau bisa langsung mendatangi kantor kami.
+
+                    Perusahaan kami memiliki pengalaman bertahun-tahun atau sejak tahun 2001 dalam bidang usaha transportasi. Dengan dukungan berbagai jenis armada mobil serta karyawan dan kru yang professional, ramah dan menyenangkan, tidak mengherankan jika kami mendapatkan kepercayaan yang tinggi dari para pengguna armada kami di kota Bandung
+                    </p>
                 </div>
-                <p id='SemiBold' className={style.tittle}>Apa pendapat mereka?</p>
+                <p id='SemiBold' className={style.tittle}>Keunggulan Fan's Garage</p>
                 <div className={style.wrapperabout}>
-                    <p id='Light' className={style.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi obcaecati, tenetur culpa ratione, atque porro dolor eos praesentium possimus modi cumque! Enim alias eveniet, hic saepe dignissimos, fugit similique quod voluptates omnis dolores maxime veniam, quaerat sed labore deleniti. Sint ex praesentium minima velit, officia quos labore molestiae. Rerum in qui assumenda ipsum nam, molestias laborum, aliquid adipisci dolores magnam non doloribus aut distinctio odit rem dicta! Enim quis impedit odio neque aliquam perferendis, recusandae provident corporis fuga assumenda iusto? Adipisci neque iste fugiat molestiae quos architecto sequi fuga, nemo, quis ullam dolorem quod officiis. Similique voluptates vero voluptatum dolorum pariatur neque quibusdam porro ab, aliquid deserunt omnis laboriosam, aspernatur corrupti? Vero quibusdam, excepturi a nihil quaerat dolorem laboriosam molestiae adipisci et sequi sunt eum fugit ut, laborum necessitatibus recusandae quia praesentium placeat pariatur? Quibusdam dolores nam obcaecati nemo maxime enim, eligendi aliquid illo laborum magni quaerat ratione rem suscipit autem quam quis ad illum eum cum velit vitae explicabo totam accusantium atque. Alias quos odit possimus at minus quae exercitationem nisi autem, perspiciatis obcaecati temporibus! Officiis exercitationem corporis consequatur! Neque sequi, ipsam fugiat pariatur inventore a libero dolorem nesciunt maiores excepturi soluta, facere id, illo consequatur? Explicabo, nisi?</p>
+                    <p id='Light' className={style.text}>Produk dan layanan kami hadir dengan berbagai keunggulan. Berikut adalah keunggulan kami sebagai penyedia jasa rental mobil Bandung:
+
+                    1. Kami memiliki pengalaman bertahun-tahun dalam mengelola bidang usaha transportasi. Kami juga didukung oleh karyawan dan kru yang ramah, menyenangkan dan sangat professional.
+                    2. Untuk kenyamanan dan keamanan berkendara, kami selalu berusaha untuk meng-upgrade unit armada kami dengan kendaraan keluaran terbaru.
+                    3. Kami memiliki kendaraan dalam kondisi terbaik. Semua unit mobil kami juga telah dilengkapi dengan asuransi all-risk untuk melindungi kendaraan dan juga para penumpang.
+                    4. Untuk pemesanan armada mobil yang mudah, cepat dan simple, kami menggunakan system booking online.
+                    5. Dengan layanan yang professional serta tarif sewa mobil Bandung murah menjadikan kami memiliki pengguna yang setia.
+                    6. Kami melayani berbagai jangka waktu sewa kendaraan. Rental mobil bandung murah 24 jam kami akan menjadi pilihan terbaik bagi anda. Berikut adalah jenis dan tarif harga sewa mobil Bandung lengkap kami.</p>
                 </div>
                 <p id='SemiBold' className={style.tittle}>Alamat kami</p>
                 <div className={style.wrapperabout}>
-                    <p id='Light' className={style.text2}>Jl. Sekepanjang 1 no.70 Cikutra Cibeunying Kidul Kota Bandung 40124</p>
+                    <p id='Light' className={style.text2}>Jl. Sekepanjang 1 Cikutra Cibeunying Kidul Kota Bandung 40124</p>
                 </div>
                 <div className={style.wrapperabout2}>
                     <p id='Light' className={style.text3}>Cek via google maps</p>
