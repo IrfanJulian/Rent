@@ -37,13 +37,13 @@
     padding-left: 30px;
 }
 
-.butt:hover{
+/* .butt:hover{
     transition: 650ms;
     opacity: 50%;
-    /* scale: 115%;
+    scale: 115%;
     border: 1px solid red;
-    color: red; */
-}
+    color: red;
+} */
 
 .tittle{
     text-align: center;
@@ -78,7 +78,6 @@
     }
     .butt:hover{
         transition: none;
-        opacity: none;
     }
     .tittle{
         text-align: center;
