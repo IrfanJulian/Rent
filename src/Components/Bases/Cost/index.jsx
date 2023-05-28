@@ -45,11 +45,11 @@ const Biaya = ({ close, price, totalPrice, onchange, driver, resDriver, onclickc
               </div>
               <div className={style.jenis3}>
                 <div className={style.wrapperbutton}>
-                  <button onClick={driver} className={resDriver === true ? style.button : style.button2}>✔</button>
+                  <button onClick={driver} className={resDriver === true ? style.button : style.button2}>{resDriver === true ? "✔" : ""}</button>
                   <p>Ya</p>
                 </div>
                 <div className={style.wrapperbutton}>
-                  <button onClick={driver2} className={resDriver === false ? style.button : style.button2}>✔</button>
+                  <button onClick={driver2} className={resDriver === false ? style.button : style.button2}>{resDriver === false ? "✔" : ""}</button>
                   <p>Tidak</p>
                 </div>
               </div>
