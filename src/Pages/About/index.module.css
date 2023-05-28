@@ -1,0 +1,28 @@
+.wrapper{
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.wrapperabout{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 100px;
+}
+
+.text{
+    color: white;
+    font-size: 18px;
+}
+
+.text2{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.tittle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}

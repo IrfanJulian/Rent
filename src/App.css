@@ -1,38 +1,82 @@
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('./Assets/Font/Poppins-Thin.ttf');
+}
+
+#Thin{
+  font-family: 'Poppins-Thin', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./Assets/Font/Poppins-Bold.ttf');
+}
+
+#Bold{
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('./Assets/Font/Poppins-Light.ttf');
+}
+
+#Light{
+  font-family: 'Poppins-Light', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: url('./Assets/Font/Poppins-ExtraLight.ttf');
+}
+
+#ExtraLight{
+  font-family: 'Poppins-ExtraLight', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('./Assets/Font/Poppins-Medium.ttf');
+}
+
+#Medium{
+  font-family: 'Poppins-Medium', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('./Assets/Font/Poppins-SemiBold.ttf');
+}
+
+#SemiBold{
+  font-family: 'Poppins-SemiBold', sans-serif;
+}
+
 .App {
-  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background{
+  background-image: url("https://res.cloudinary.com/ddpo9zxts/image/upload/v1685070899/bzckground_bmw_tryczc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.kontainer{
+  display: grid;
+  width: 85%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .kontainer{
+    width: 70%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .background{
+    background-image: url("https://res.cloudinary.com/ddpo9zxts/image/upload/v1685070898/background_bmw_mobile_r6yejq.jpg");
   }
 }
