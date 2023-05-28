@@ -153,7 +153,7 @@
 
 .buttonkonfirmasi:hover{
     transition: 750ms;
-    background-color: red;
+    background-color: black;
     color: white;
     scale: 105%;
     border: none;
@@ -277,15 +277,14 @@
     
     .button{
         margin-top: auto;
+        display: grid;
         margin-bottom: auto;
         margin-right: 5px;
         height: 18px;
         width: 18px;
-        color: white;
-        font-size: 10px;
         border-radius: 5px;
         border: none;
-        background-color: red;
+        background-color: black;
     }
     
     .button2{
@@ -293,13 +292,16 @@
         margin-top: auto;
         margin-bottom: auto;
         margin-right: 5px;
-        font-size: 10px;
         height: 18px;
         width: 18px;
-        color: white;
         border-radius: 5px;
         border: 1px solid black;
         background: none;
+    }
+
+    .ceklist{
+        font-size: 12px;
+        margin: auto;
     }
     
     .wrapperbutton{
@@ -341,9 +343,5 @@
         width: 100%;
         font-size: 15px;
         margin: auto;
-    }
-    
-    .buttons:hover{
-        color: none;
     }
 }

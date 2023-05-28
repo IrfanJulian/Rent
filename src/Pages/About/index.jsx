@@ -1,6 +1,8 @@
 import React from 'react'
 import style from './index.module.css'
 import Navbar from '../../Components/Modules/Navbar'
+import maps from '../../Assets/Images/maps.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -19,6 +21,12 @@ const About = () => {
                 <p id='SemiBold' className={style.tittle}>Alamat kami</p>
                 <div className={style.wrapperabout}>
                     <p id='Light' className={style.text2}>Jl. Sekepanjang 1 no.70 Cikutra Cibeunying Kidul Kota Bandung 40124</p>
+                </div>
+                <div className={style.wrapperabout2}>
+                    <p id='Light' className={style.text3}>Cek via google maps</p>
+                    <Link className={style.wrappermap} to={"https://www.google.com/maps/place/Jl.+Puri+Nirwana+3,+Karadenan,+Kec.+Cibinong,+Kabupaten+Bogor,+Jawa+Barat+16913/@-6.5118142,106.8096472,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c3d05999a579:0xbec9480875f44584!8m2!3d-6.5118142!4d106.8096472!16s%2Fg%2F11b6ym0ny4?entry=ttu"}>
+                        <img src={maps} alt="" className={style.map} />
+                    </Link>
                 </div>
             </div>
         </div>
